@@ -56,6 +56,3 @@ web-admin
 npm start               # for dev
 npm run build           # for production
 ```
-
-## About deploy
-It's same as web-user see [deploy-server]()
