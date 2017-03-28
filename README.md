@@ -1,5 +1,5 @@
 # WebAdmin
-Admin for http://tsq.me. By this webapp, you can manage all your media assets easily.
+Admin for https://tsq.me. By this webapp, you can manage all your media assets easily.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-beta.32.3.
 
