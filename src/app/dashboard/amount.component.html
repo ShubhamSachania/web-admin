@@ -43,7 +43,7 @@
         <em class="fa fa-video-camera fa-2x pull-right"></em>
         <div class="h2 mt0">
           <span *ngIf="amount.video != undefined">{{amount.video}}</span>
-          <span *ngIf="!amount.video == undefined">loading...</span>
+          <span *ngIf="amount.video == undefined">loading...</span>
         </div>
         <div class="text-uppercase">Video</div>
       </div>
@@ -57,7 +57,7 @@
         <em class="fa fa-book fa-2x pull-right"></em>
         <div class="h2 mt0">
           <span *ngIf="amount.story != undefined">{{amount.story}}</span>
-          <span *ngIf="!amount.story == undefined">loading...</span>
+          <span *ngIf="amount.story == undefined">loading...</span>
         </div>
         <div class="text-uppercase">Story</div>
       </div>
