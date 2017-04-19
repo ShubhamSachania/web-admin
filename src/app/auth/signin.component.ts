@@ -10,8 +10,8 @@ import { Base64Service } from "../service/base64.service";
     styleUrls: ['./auth.css']
 })
 export class SigninComponent implements OnInit{
-    public email: string = 'i@tsq.me';
-    public password: string = 'mayabi';
+    public email: string = '';
+    public password: string = '';
     public remember:boolean = false;
     public errorMessage: string;
     public requesting: boolean = false;
