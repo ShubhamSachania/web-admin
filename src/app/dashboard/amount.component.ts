@@ -8,9 +8,7 @@ import { RestDataSource }   from "../service/rest.datasource";
 })
 export class AmountComponent implements OnInit{
     amount: Object = {};
-    constructor(private dataSource: RestDataSource) {
-
-    }
+    constructor(private dataSource: RestDataSource) {}
     ngOnInit(): void {
         this.dataSource.getAmount('photo')
             .subscribe(result => this.amount['photo'] = result.amount);
