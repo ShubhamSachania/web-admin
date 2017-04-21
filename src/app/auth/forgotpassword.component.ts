@@ -26,7 +26,6 @@ export class ForgotPasswordComponent {
                     this.requesting = false;
                     this.successMessage = null;
                 });
-
         } else {
             this.errorMessage = 'Form Data Invalid';
             this.successMessage = null;
